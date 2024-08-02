@@ -48,5 +48,18 @@
 
 <p>※2023년 05월 03일 제한사항이 수정되었습니다.</p>
 
-
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+## 개념
+- 소문자 -> 대문자 <br />
+toUpperCase()
+- 대문자 -> 소문자 <br />
+to LowerCase()
+<br />
+charAt 을 사용해 문자를 추출하고 <br />
+- 대문자인지 구별 <br />
+Character.isUpperCase()
+- 소문자인지 구별 <br />
+Character.isLowerCase()
+- 숫자인지 구별 <br />
+Character.isDigit()
