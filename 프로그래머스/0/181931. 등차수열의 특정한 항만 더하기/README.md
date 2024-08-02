@@ -140,3 +140,9 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+## 개념
+- 등차수열 공식 <br />
+첫째항 : a , 등차 : d <br />
+-> a + (n - 1) d
+  
