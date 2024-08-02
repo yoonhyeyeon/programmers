@@ -79,3 +79,11 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+
+## 개념
+- int -> String  <br />
+Integer.toString
+- String -> int <br />
+Integer.parseInt  :  문자열을 기본형 int로 변환 -> 반환 타입 : int  <br />
+Integer.valueOf : 문자열을 Integer 객체로 변환 -> 반환 타입 : Integer
