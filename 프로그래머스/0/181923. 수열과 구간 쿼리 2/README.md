@@ -77,3 +77,8 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+## 개념
+- 정수의 최대값, 최소값 <br />
+Integer.MAX_VALUE <br/>
+Integer.MIN_VALUE
