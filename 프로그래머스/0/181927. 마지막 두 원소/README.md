@@ -68,3 +68,40 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+## 개념
+- 배열에 새로운 요소 추가하는 여러 방법 <br />
+1. 배열의 길이를 확장하여 요소 추가하기 <br />
+```
+// 기존 배열
+int[] originalArray = {1, 2, 3};
+// 새로운 요소 추가를 위해 길이를 1 늘린 새 배열 생성
+int[] newArray = Arrays.copyOf(originalArray, originalArray.length + 1);
+// 새로운 요소 추가
+newArray[newArray.length - 1] = 4;
+System.out.println("새로운 요소 추가 후 배열: " + Arrays.toString(newArray));
+```
+2. ArrayList를 사용해 요소 추가하기
+```
+// 기존 배열
+Integer[] originalArray = {1, 2, 3};
+// ArrayList로 변환
+ArrayList<Integer> arrayList = new ArrayList<>(Arrays.asList(originalArray));
+// 새로운 요소 추가
+arrayList.add(4);
+// ArrayList를 다시 배열로 변환
+Integer[] newArray = arrayList.toArray(new Integer[0]);
+System.out.println("새로운 요소 추가 후 배열: " + Arrays.toString(newArray));
+```
+3. System.arraycopy() 메서드를 사용해 요소 추가하기
+```
+// 기존 배열
+String[] originalArray = {"apple", "banana", "orange"};
+// 새로운 요소 추가를 위해 길이가 1 더 긴 새 배열 생성
+String[] newArray = new String[originalArray.length + 1];
+// 기존 배열의 모든 요소를 새 배열로 복사
+System.arraycopy(originalArray, 0, newArray, 0, originalArray.length);
+// 새로운 요소 추가
+newArray[newArray.length - 1] = "grape";
+System.out.println("새로운 요소 추가 후 배열: " + Arrays.toString(newArray));
+```
