@@ -105,3 +105,9 @@ System.arraycopy(originalArray, 0, newArray, 0, originalArray.length);
 newArray[newArray.length - 1] = "grape";
 System.out.println("새로운 요소 추가 후 배열: " + Arrays.toString(newArray));
 ```
+
+#### - else if ( num_list[num_list.length - 1] < num_list[num_list.length - 2]) 가 아니라 else 를 써야 하는 이유
+<h5>
+else if를 사용했을 때 문제가 발생한 이유는 만약 num_list[num_list.length - 1]가 num_list[num_list.length - 2]와 같다면, 어떤 코드도 실행되지 않고, 새 배열의 마지막 요소가 설정되지 않는다. 이는 문제에서 요구하는 조건을 만족하지 않으므로, "실패" 결과가 발생한 것이다.
+</h5>
+
