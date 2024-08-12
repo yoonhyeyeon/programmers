@@ -72,3 +72,9 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+
+## 개념
+- String.valueOf : 정수를 문자열로 변환.  (toString 은 int로 변환)
+- matches("[05]+") : 변환된 문자열이 정규 표현식 "[05]+"와 일치하는지를 검사 <br />
+  ([05]는 대괄호 안의 0과 5는 문자열의 각 자리가 0이나 5일 수 있다는 것을 의미) <br />
+  (+ 는 앞의 패턴이 한 번 이상 반복될 수 있다는 의미) <br />
