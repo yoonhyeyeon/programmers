@@ -118,4 +118,9 @@
 </tbody>
       </table>
 
+## 개념
+- || : 하나라도  true 면 true(OR) <br />
+- && : 모두 true 여야 true <br />
+- ! : 논리갑 반전 (NOT) <br />
+
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
