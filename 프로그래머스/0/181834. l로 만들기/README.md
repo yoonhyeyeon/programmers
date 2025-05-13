@@ -71,5 +71,11 @@
 <li>따라서 "llnnllllmm"을 return 합니다.</li>
 </ul>
 
+## 개념
+- replace() , replaceAll() : 문자열을 바꿀 때 사용함
+- replace() : 타입 char , 정규식 지원 X  <br />
+- replaceAll() : 타입 정규표현식(String) 사용 , 정규식 지원 O
+
+
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
