@@ -56,6 +56,7 @@
   그 결과인 정수를 double 로 암식적으로 변환한다. <br />
   ex ) sum / length = 10 / 4 = 2 <- 소수점은 잘림 <br />
        그 다음 , answer = (double)2 = 2.0  <br />
+       
 ✅ 왜 명시적 형변환이 필요한가 ? <br />
 - double answer = (double)sum / arr.Length; <br />
 ->  여기서는  sum이 먼저 double로 변환되므로, <br />
