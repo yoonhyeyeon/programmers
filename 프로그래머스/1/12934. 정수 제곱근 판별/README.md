@@ -54,5 +54,15 @@ n이 양의 정수 x의 제곱이라면 x+1의 제곱을 리턴하고, n이 양�
 <p><strong>입출력 예#2</strong><br>
 3은 양의 정수의 제곱이 아니므로, -1을 리턴합니다.</p>
 
+---
+## 📃개념
+- Math.sqrt(n)  <br>
+n의 제곱근을 구합니다. <br>
+- sqrt == (long)sqrt <br>
+sqrt 가 정수인지 확인. <br>
+만약 sqrt 가 정수라면 sqrt == (long)sqrt 는 true 가 됨.
+
+<hr>
+
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
