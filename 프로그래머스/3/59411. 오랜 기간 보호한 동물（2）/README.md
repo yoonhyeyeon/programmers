@@ -198,6 +198,25 @@ Empty
       </table>
 <p>※ 입양을 간 동물이 2마리 이상인 경우만 입력으로 주어집니다.</p>
 
+## 📄 개념
+<h4> ROWNUM </h4>
+
+```
+SELECT 컬럼명
+FROM 테이블명
+WHERE ROWNUM <= N;
+```
+
+- 처음 N개의 행만 출력
+- ROWNUM 은 SELECT 결과가 생성되는 순서에 따라 1부터 부여
+- 정렬(ORDER BY)보다 먼저 처리 -> 정렬된 결과 앞에서 N개를 고르려면 -> 서브쿼리 사용
+<hr>
+❗️ 중요한 특징과 주의점 <br />
+1. ROWNUM은 SELECT 전에 정해진다 <br />
+-> 정렬된 결과에서 상위 N개를 뽑으려면 반드시 서브쿼리 써야함 <br />
+2. ROWNUM = 2 는 안됨 <br />
+-> ROWNUM은 순차적으로 증가하므로, ROWNUM = 2 는 2번째 행을 건너뛰고 첫 번째 행이 2여야만 참인데 그런 경우 X
+
 <hr>
 
 <p>본 문제는 <a href="https://www.kaggle.com/aaronschlegel/austin-animal-center-shelter-intakes-and-outcomes" target="_blank" rel="noopener">Kaggle의 "Austin Animal Center Shelter Intakes and Outcomes"</a>에서 제공하는 데이터를 사용하였으며 <a href="https://opendatacommons.org/licenses/odbl/1.0/" target="_blank" rel="noopener">ODbL</a>의 적용을 받습니다.</p>
