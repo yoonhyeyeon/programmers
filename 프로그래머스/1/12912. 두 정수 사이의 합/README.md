@@ -56,5 +56,47 @@
 </tr>
 </tbody>
       </table>
+---
+
+## 📃 개념
+```
+public class Solution {
+    public long solution(int a, int b) {
+        long answer = 0;
+
+        if( a < b ){
+            for( int i = a+1; i <= b; i++){
+                answer = a += i;
+            }
+        }else if( a > b ){
+            for( int i = b+1; i <= a; i++){
+                answer = b += i;
+            }
+        }else{
+            answer = a;
+        }
+        
+        return answer;
+    }
+}
+```
+-> 처음에 이렇게 했으나 음수에선 오류 생김 <br />
+<hr>
+❌ 코드의 문제점 <br>
+- answer = a += i; <br />
+-> 이 부분은 i를 a 에 누적하고, 그 값을 다시 answer에 넣는 구조 <br>
+- a 값이 계속 바뀌면서 a 값이 손실 되고, 누적 계산이 꼬일 수 있음 <br>
+- a 나 b 를 변경하지말고, 별도로 answer에만 누적해야 한다. <br>
+
+---
+✅ Math.Min(a, b) <br>
+a와 b 중에서 작은 값을 반환. <br>
+예: Math.Min(3, 5) → 3
+<hr> 
+✅ Math.Max(a, b) <br>
+a와 b 중에서 큰 값을 반환. <br> 
+예: Math.Max(3, 5) → 5 <br>
+
+<hr>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
