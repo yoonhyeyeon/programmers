@@ -42,4 +42,9 @@
 </tbody>
       </table>
 
+## 개념
+- .ToString() -> char를 문자열로 바꾼다    //C#에선 ToString , JAVA - toString
+- int.Parse() -> 문자열을 정수로 바꾼다
+<br />
+
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
