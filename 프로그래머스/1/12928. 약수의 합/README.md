@@ -53,5 +53,8 @@
 <p>입출력 예 #2<br>
 5의 약수는 1, 5입니다. 이를 모두 더하면 6입니다.</p>
 
+## 개념
+- 약수 구하기 : n % i == 0
+
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
