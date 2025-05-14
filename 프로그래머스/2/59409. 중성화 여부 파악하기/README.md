@@ -133,6 +133,24 @@ Empty
       </table>
 <p>※ 컬럼 이름은 일치하지 않아도 됩니다.</p>
 
+---
+
+## 📄 개념
+- CASE 구문은 SQL에서 조건에 따라 다른 값을 반환할 수 있게 해주는 제어 구조이다. 간단히 말하면, 특정 조건을 만족하면 하나의 값을 반환하고, 그렇지 않으면 다른 값을 반환하는 방식이다. <br />
+```
+CASE
+    WHEN 조건1 THEN 반환값1
+    WHEN 조건2 THEN 반환값2
+    ELSE 반환값3
+END
+```
+- CASE: 조건문을 시작하는 키워드
+- WHEN: 특정 조건을 정의. 조건이 참이면 THEN 뒤에 지정된 값을 반환.
+- THEN: WHEN 조건이 참일 경우 반환되는 값.
+- ELSE: 조건이 모두 거짓일 때 반환되는 기본값. ELSE는 선택사항이지만, 없으면 조건을 만족하지 않는 경우 NULL이 반환.
+- END: CASE 구문의 끝.
+
+
 <hr>
 
 <p>본 문제는 <a href="https://www.kaggle.com/aaronschlegel/austin-animal-center-shelter-intakes-and-outcomes" target="_blank" rel="noopener">Kaggle의 "Austin Animal Center Shelter Intakes and Outcomes"</a>에서 제공하는 데이터를 사용하였으며 <a href="https://opendatacommons.org/licenses/odbl/1.0/" target="_blank" rel="noopener">ODbL</a>의 적용을 받습니다.</p>
