@@ -47,4 +47,25 @@
 </tbody>
       </table>
 
+## 개념
+- 마지막에 answer / 2 -> 합계의 절반
+- 평균 -> 합계 ÷ 배열 길이
+---
+- 마지막에 암시적 형변환이 안되는 이유 (왜 명시적 형변환이 필요한가?)
+- double answer = sum / length;  -> sum / length는 int / int 연산이 먼저 일어나고, <br />
+  그 결과인 정수를 double 로 암식적으로 변환한다. <br />
+  ex ) sum / length = 10 / 4 = 2 <- 소수점은 잘림 <br />
+       그 다음 , answer = (double)2 = 2.0  <br />
+✅ 왜 명시적 형변환이 필요한가 ? <br />
+- double answer = (double)sum / arr.Length; <br />
+->  여기서는  sum이 먼저 double로 변환되므로, <br />
+    double / int -> 부동소수점 나눗셈이 일어나고 <br />
+    결과는 정확한 평균인 2.5가 된다.
+
+🔄 정리
+| 표현식                                     | 결과    | 설명                 |
+| --------------------------------------- | ----- | ------------------ |
+| `double answer = sum / length;`         | `2.0` | 정수 나눗셈 후 실수 변환     |
+| `double answer = (double)sum / length;` | `2.5` | 먼저 실수로 변환 → 정확한 평균 |
+
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
