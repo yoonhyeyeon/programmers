@@ -141,6 +141,12 @@ Empty
       </table>
 <hr>
 
+## 개념
+
+<h4> LOWER </h4>
+- 대소문자구분 없이 조건 처리 <br />
+<br /><br />
+
 <p>본 문제는 <a href="https://www.kaggle.com/aaronschlegel/austin-animal-center-shelter-intakes-and-outcomes" target="_blank" rel="noopener">Kaggle의 "Austin Animal Center Shelter Intakes and Outcomes"</a>에서 제공하는 데이터를 사용하였으며 <a href="https://opendatacommons.org/licenses/odbl/1.0/" target="_blank" rel="noopener">ODbL</a>의 적용을 받습니다.</p>
 
 
