@@ -127,4 +127,11 @@ Empty
 </tbody>
       </table>
 
+## 📃개념 <br>
+- LEFT('문자열' , 숫자) : 왼쪽에서 2글자 가져오기 ex) ('문자열' , 2) -> '문자' <br>
+- RIGHT('문자열'. 숫자) : 오른쪽에서 2글자 가져오기 ex) ('문자열' , 2) -> '자열' <br>
+
+
+<hr>
+
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
