@@ -65,5 +65,9 @@
 <li>976은 제곱수가 아닙니다. 따라서 2를 return합니다.</li>
 </ul>
 
+## 📃개념 <br />
+- Math.Sqrt() : 제곱근 구해줌 <br />
+<hr>
+
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
