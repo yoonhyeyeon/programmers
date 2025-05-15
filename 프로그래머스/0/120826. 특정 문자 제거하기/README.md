@@ -71,5 +71,8 @@
 <li>"BCBdbe" 에서 "B"를 모두 제거한 "Cdbe"를 return합니다.</li>
 </ul>
 
+## 📃 개념 <br>
+- Replace() : 문자열 안에 있는 특정 문자를 다른 걸로 바꾸거나 아예 없애버리는 기능 <br>
+<hr>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
