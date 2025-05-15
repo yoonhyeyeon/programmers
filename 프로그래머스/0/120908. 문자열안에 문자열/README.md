@@ -81,5 +81,10 @@
 <li>"AbcAbcA" <code>str1</code>에 <code>str2</code>가 없으므로 2를 return합니다.</li>
 </ul>
 
+## 📃 개념
+- Contains() : 어떤 문자열 안에 찾고 싶은 특정 문자열이나 문자가 들어있는지 안들어있는지 확인해주는 기능 <br />
+-> 찾을 문자열이 들어있는 큰 문자열.Contains(찾고 싶은 작은 문자열) <br />
+
+<hr>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
